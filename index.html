@@ -1,0 +1,961 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="author" content="">
+<meta name="description" content="">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suresh Balaji Dhandapani</title>
+
+<!--Favicon-->
+<link rel="shortcut icon" href="img/favicon.png">
+
+<!-- CSS Files -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/circle.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
+<link href="css/tiny-slider.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+<!-- Color Stylesheet -->
+<link href="css/colors/red-color.css" rel="stylesheet">
+
+<!-- Google Fonts -->
+
+<script src="https://kit.fontawesome.com/f9279329f6.js" crossorigin="anonymous"></script>
+<style type="text/css">
+  .timee{
+    color: #fff;
+    font-size: 14px;
+    padding: 3px 12px;
+    display: inline-block;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    font-weight: 500;
+    box-shadow: 0 2px 7px rgb(0 0 0 / 5%);
+    background-color:#3c3c3c;
+    opacity: .8;
+  }
+</style>
+
+
+<style type="text/css">
+  /* Position the image container (needed to position the left and right arrows) */
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 42%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+
+</head>
+
+<body>
+<!-- Preloader-->
+<div class="vfx-loader">
+	<div class="loader-wrapper">
+		<div class="loader-content">
+			<div class="loader-dot dot-1"></div>
+			<div class="loader-dot dot-2"></div>
+			<div class="loader-dot dot-3"></div>
+			<div class="loader-dot dot-4"></div>
+			<div class="loader-dot dot-5"></div>
+			<div class="loader-dot dot-6"></div>
+			<div class="loader-dot dot-7"></div>
+			<div class="loader-dot dot-8"></div>
+			<div class="loader-dot dot-center"></div>
+		</div>
+	</div>
+</div>
+
+<!-- Header Starts -->
+<header class="header" id="navbar-collapse-toggle"> 
+  <!-- Fixed Navigation Starts -->
+  <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+    <li class="icon-box tooltip active"><i class="fa fa-home"></i> <a href="#home"></a><span class="tooltiptext tooltip-right">Home</span></li>
+    <li class="icon-box tooltip"><i class="fa fa-id-card"></i> <a href="#about"></a><span class="tooltiptext tooltip-right">About Me</span></li>
+    <li class="icon-box tooltip"><i class="fa fa-image"></i> <a href="#exp"></a><span class="tooltiptext tooltip-right">My Experience</span></li>
+    <li class="icon-box tooltip"><i class="fa fa-envelope"></i> <a href="#contact"></a><span class="tooltiptext tooltip-right">Contact Me</span></li>
+   
+  </ul>
+  <!-- Fixed Navigation Ends --> 
+  <!-- Mobile Menu Starts -->
+  <nav class="d-block d-lg-none">
+    <div id="menuToggle">
+      <input type="checkbox" />
+      <span></span> <span></span> <span></span>
+      <ul class="list-unstyled" id="menu">
+        <li class="tooltip active"><a href="#home"><i class="fa fa-home"></i></a><span class="tooltiptext tooltip-right">Home</span></li>
+        <li class="tooltip"><a href="#about"><i class="fa fa-id-card"></i></a><span class="tooltiptext tooltip-right">About Me</span></li>
+        <li class="tooltip"><a href="#exp"><i class="fa fa-image"></i></a><span class="tooltiptext tooltip-right">My Experience</span></li>
+        <li class="tooltip"><a href="#contact"><i class="fa fa-envelope"></i></a><span class="tooltiptext tooltip-right">Contact Me</span></li>
+       
+      </ul>
+    </div>
+  </nav>
+  <!-- Mobile Menu Ends --> 
+</header>
+<!-- Header Ends --> 
+<!-- Main Content Starts -->
+<div id="home" class="home">
+<section class="container-fluid main-container container-home p-0 hero-area-block utf-element-cover-bg element-cover-bg revealator-slideup revealator-once revealator-delay1" style="background-image:url(img/hero_img_1.jpg);">
+  <!--<div class="color-block d-none d-lg-block"></div>-->
+  <div class="row utf-home-details-container align-items-center">
+    <div class="col-12 col-lg-7 offset-lg-3 utf-home-details text-center text-sm-center ">
+      <div> 
+	    <img src="img/img-mobile.jpg" class="img-fluid main-img-mobile hero-d-none d-sm-block d-lg-none" alt="my picture" />
+      <h6 class="mb-0 d-block d-lg-block">Hi I'm Suresh Balaji Dhandapani</h6>
+      <h1><span>I Am a</span><span class="typed-words"></span></h1>
+      <p>Exceptionally proficient project manager with meticulous attention to details with strong communication skills and the ability to solve complex problems efficiently, ensuring successful project delivery from inception to completion.
+        <br>
+
+</p>
+        <a href="#about" class="btn btn-about">About Me <i class="fa fa-user-circle"></i></a> 
+		<a href="#contact" class="btn btn-contact">Get in Touch <i class="fa fa-envelope"></i></a>
+	  </div>
+    </div>
+  </div>
+  <div class="utf-fixed-wrapper"> 
+	  <!-- Languages list -->
+	  <div class="utf-fixed-block block-right">
+		<ul class="list-unstyled languages-list">
+			  <li><a href="https://www.kuat.com/" target="_blank"><span class="single-language">Construction Project Manager</span></a></li>
+			  <li><a href="https://www.kuat.com/" target="_blank"><span class="single-language">Coordinator</span></a></li>
+			  <li><a href="https://www.kuat.com/" target="_blank"><span class="single-language">Estimator</span></a></li>
+			 
+		</ul>
+	  </div>
+  </div>
+
+</section>
+
+</div>
+
+<!-- Main Content Ends --> 
+
+
+<!-- Page Title Starts -->
+<div id="about" class="about">
+<section class="title-section text-center text-sm-center revealator-slideup revealator-once revealator-delay1">
+  <!-- <p class="utf-section-description">About Main Info</p>	 -->
+  <h1>About <span>ME</span></h1>  
+  <div class="animated-bar"></div>
+  <p class="text-max-700"> 
+   
+     <i class="fa fa-diamond" aria-hidden="true" style="color: #ff0000;"></i>
+                           &nbsp; Construction Project manager &nbsp;
+
+                             <i class="fa fa-diamond" aria-hidden="true" style="color: #ff0000;"></i><br>
+                             <i class="fa fa-diamond" aria-hidden="true" style="color: #ff0000;"></i>
+                             &nbsp;Coordinator&nbsp;
+                             <i class="fa fa-diamond" aria-hidden="true" style="color: #ff0000;"></i>
+
+                            
+                                               
+                             &nbsp;Estimator&nbsp;
+                          
+    
+                             <i class="fa fa-diamond" aria-hidden="true" style="color: #ff0000;"></i>
+                           
+                           
+
+                         </p>
+</section>
+<!-- Page Title Ends --> 
+
+<!-- Main Content Starts -->
+<section class="main-content revealator-slideup revealator-once revealator-delay1">
+  <div class="container">
+    <div class="row"> 
+
+      <!-- Personal Info Starts -->
+      <div class="col-12 col-lg-12 col-xl-12">
+        <div class="row">
+
+          <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 utf-about-user-img"> 
+            <img src="img/about_img.jpg" class="img-fluid main-img-mobile" alt="my picture" /> 
+
+<!-- <div class="mySlides">
+    <div class="numbertext">1 / 5</div>
+    <img src="img/01.jpg" style="width:100%">
+  </div>
+
+ <div class="mySlides">
+    <div class="numbertext">2 / 5</div>
+    <img src="img/02.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 5</div>
+    <img src="img/03.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 5</div>
+    <img src="img/04.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">5 / 5</div>
+    <img src="img/05.jpg" style="width:100%">
+  </div>
+
+ 
+ 
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  
+ </div> -->
+
+
+          </div>
+		  <div class="row col-xl-7 col-lg-7 col-md-12 utf-about-dtl">
+			  <div class="col-12 mb-3">
+				<h2 style="font-size: 30px;">Suresh Balaji Dhandapani</h2>  
+				
+			
+<ul style="text-align: justify;font-weight: 400;
+    line-height: 1.8;
+  
+    text-align: justify;
+    margin-left: -25px;">
+ <li>Expert in applying programming languages such as Python and MATLAB to automate and optimize engineering workflows, improving accuracy and efficiency in project execution</li>
+  <li>Proficient in using advanced analytics and data visualization tools to extract actionable insights from project data, ensuring informed and effective decision-making throughout the project lifecycle.</li>
+  <li>Adept at creating comprehensive project plans that include detailed schedules, resource allocations, and risk management strategies to ensure timely and within-budget project completion.</li>
+  <li>Expert in scheduling and organizing tasks and resources to keep the project on track and meet deadlines.</li>
+  <li>Proficient in using various communication tools and strategies to ensure seamless interaction among project teams, clients, and stakeholders.</li>
+  <li>Adept at tracking project milestones, identifying potential delays, and providing regular status updates to stakeholders.</li>
+  <li>Ensures all project documentation is accurate, up-to-date, and compliant with relevant regulations and standards.</li>
+  <li>Expert in calculating project costs, including materials, labor, equipment, and other expenses, ensuring accurate and detailed estimates.</li>
+  <li>Proficient in using current market data and industry trends to provide realistic and competitive cost estimates.</li>
+  <li>Adept at interpreting project plans and specifications to determine the scope of work and associated costs accurately.</li>
+  
+
+  
+</ul>  
+
+</p><!-- <p>
+•	Well organized, effective communicator, conscientious multi-tasker, and understand client and costumer requirements
+</p> -->
+			  </div>
+			  <div class="col-12 mt-3"> 
+				<a href="Suresh_Resume.pdf" target="_blank" class="btn btn-download">Download My CV <i class="fa fa-download"></i></a>
+				<a href="#contact" class="btn btn-hire">Hire Me! <i class="fa fa-file"></i></a>	
+			  </div>
+		  </div>
+        </div>
+      </div>
+      <!-- Personal Info Ends --> 
+      <!-- Boxes Starts -->
+    <!--   <div class="col-12 col-lg-12 col-xl-12 pt-5 mt-lg-0 pb-5">
+        <div class="row">
+          <div class="col-6 col-lg-3 col-sm-4 col-xs-12">
+            <div class="utf-box-stats with-margin">
+			  <i class="fa fa-camera"></i>
+              <p class="m-0 position-relative">Photography</p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 col-sm-4 col-xs-12">
+            <div class="utf-box-stats with-margin">
+			  <i class="fa fa-film"></i>
+              <p class="m-0 position-relative">Hiking & Adventure</p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 col-sm-4 col-xs-12">
+            <div class="utf-box-stats with-margin">
+			  <i class="fa fa-cutlery"></i>
+              <p class="m-0 position-relative">Cooking</p>
+            </div>
+          </div>
+         
+           <div class="col-6 col-lg-3 col-sm-4 col-xs-12">
+             <a target="_blank" href="https://www.instagram.com/karmaaaspheree/">
+            <div class="utf-box-stats with-margin">
+        <i class="fa fa-instagram"></i>
+              <p class="m-0 position-relative">Instagram</p>
+            </div>
+              </a>
+          </div>
+      
+          		 
+     <i class="fa-solid fa-bowl-rice"></i>
+        </div>
+      </div> -->
+      <!-- Boxes Ends --> 
+    </div>
+
+    <!-- Skills Starts -->
+   
+    <!-- Skills Ends -->
+ <br>
+    <!-- Experience & Education Starts -->
+    <div class="row">
+      <div class="col-lg-12 m-15px-tb">
+	    <h3 class="col-title">My Education</h3>
+        <div class="utf-resume-box">
+          <ul>
+            <li>
+              <div class="icon"></div>
+              <span class="time">Anticipated May 2024</span> 
+              <span class="time">GPA: 3.44</span> 
+
+              <h5>University of Texas, Arlington, Texas<span class="place">Masters in Construction Management</span></h5>
+            </li>
+             <li>
+              <div class="icon"></div>
+              <span class="time">June 2021</span> 
+              <h5>SRM Institute of Science and Technology, India <span class="place">Bachelor of Architecture</span></h5>
+             
+            </li>
+           
+           
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="exp" class="row">
+      <div class="col-lg-12 m-15px-tb">
+	    <h3 class="col-title">Work Experience</h3>
+        <div class="utf-resume-box">
+          <ul>
+            <li>
+              <div class="icon"></div>
+              <span class="time">Feb 2023 - Present</span>
+              <h5>Student Associate - Research Administration Department| University of Texas at Arlington, Arlington, TX </h5>
+              <p><b style="color:#ff0000">•</b> Exhibited exemplary project management skills, consistently meeting deadlines and surpassing client expectations.<br>
+                <b style="color:#ff0000">•</b> Mastered time management, balancing work responsibilities, personal projects, and academic commitments effectively.<br>
+                <b style="color:#ff0000">•</b> Cultivated a robust professional network spanning diverse sectors, facilitating efficient communication and resource utilization.<br>
+                <b style="color:#ff0000">•</b> Proactively initiated and oversaw contractual agreements, contributing significantly to research projects across various fields.<br>
+                
+
+</p>
+            </li>
+
+            <li>
+              <div class="icon"></div>
+              <span class="time">July 2021 – July 2022 </span>
+              <h5>Business Operations Manager | DSBalaji Enterprises, India</h5>
+              <p><b style="color:#ff0000">•</b> Spearheaded project management efforts within both residential and commercial settings, emphasizing adaptability and versatility.<br>
+                <b style="color:#ff0000">•</b> Implemented inventive improvements to existing structures, demonstrating innovative problem-solving abilities.<br>
+                <b style="color:#ff0000">•</b> Acquired comprehensive expertise spanning multiple sectors, highlighting a robust business acumen.<br>
+                <b style="color:#ff0000">•</b> Proficiently managed budgets, optimizing resource allocation and maintaining a commitment to profitability.<br>
+                
+</p>
+            </li>
+
+
+            <li>
+              <div class="icon"></div>
+              <span class="time">Jan 2021 – July 2021 </span>
+              <h5>Construction Coordinator Intern | Kosh Studios LLP, India</h5>
+              <p><b style="color:#ff0000">•</b> Managed design tasks, creating intricate blueprints, sections, elevations, and 3D visualizations.<br>
+                <b style="color:#ff0000">•</b> Ensured precision in project execution through meticulous site inspections and adherence to design specifications.<br>
+                <b style="color:#ff0000">•</b> Prioritized staying updated on industry advancements through consistent supplier communication.<br>
+                <b style="color:#ff0000">•</b> Collaborated with interior design teams and architects, emphasizing the value of teamwork in complex projects.<br>
+                
+                
+</p>
+            </li>
+            
+       </ul>
+        </div>
+      </div>
+    </div>
+
+      <div class="row">
+      <div class="col-lg-12 m-15px-tb">
+      <h3 class="col-title">PROJECT EXPERIENCE</h3>
+        <div class="utf-resume-box">
+          <ul>
+            <li>
+              <div class="icon"></div>
+              <span class="time">Aug 2022 – Dec 2022</span>
+              <h5>Construction Cost Estimation and Rate analysis for Buddharatanaram Community, Fort Worth TX</h5>
+              <p><b style="color:#ff0000">•</b> Analyzed construction costs and conducted detailed quantity take-offs, showcasing skills in project budgeting and resource allocation.<br>
+                <b style="color:#ff0000">•</b> Ensured strict compliance with industry standards and regulations, aligning with safety and quality requirements.<br>
+                <b style="color:#ff0000">•</b> Communicated analysis results effectively, demonstrating strong communication skills.<br>
+                
+                
+                
+
+</p>
+            </li>
+
+         
+            <li>
+              <div class="icon"></div>
+              <span class="time">Aug 2022 – Dec 2022</span>
+              <h5>Construction Planning and Scheduling for single family house, Lake Nacimiento, California</h5>
+              <p><b style="color:#ff0000">•</b> Authored a comprehensive report encompassing a quantity table for all materials & evaluated productivity of construction activities.<br>
+                <b style="color:#ff0000">•</b> Developed an activity calendar considering construction cost, labor crew allocation, weather data to ensure efficient project scheduling.<br>
+                
+                
+                
+                
+
+</p>
+            </li>
+             
+            
+          </li>
+
+         
+          <li>
+            <div class="icon"></div>
+            <span class="time">Aug 2022 – Dec 2022</span>
+            <h5>Building Performance Analysis using BIM on The Choice Headquarters Office, Chiang Mai, Thailand</h5>
+            <p><b style="color:#ff0000">•</b> Integrated local architectural elements into an energy-efficient structure using Building Information Modeling for modern design.<br>
+              <b style="color:#ff0000">•</b> Conducted building performance analyses to enhance energy efficiency, showcasing skills relevant to the job description.<br>
+              
+              
+              
+              
+
+</p>
+          </li>
+          <li>
+            <div class="icon"></div>
+            <span class="time">Jan 2023 – May 2023</span>
+            <h5>Construction Methods Field Operation on WWTP Shaft Excavation</h5>
+            <p><b style="color:#ff0000">•</b> Successfully led a team of three to excavate Pumping and Screening shafts, achieving precise depths of 140ft and 125ft, respectively.<br>
+              <b style="color:#ff0000">•</b> Implemented cutting-edge safety protocols, contributing to a noteworthy 25% decrease in potential safety incidents. Demonstrated exceptional &nbsp;&nbsp;&nbsp;efficiency by completing the project 10 days ahead of schedule, reflecting a significant 15% increase in operational efficiency.<br>
+              
+              
+              
+              
+              
+
+</p>
+          </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="row">
+      <div class="col-lg-12 m-15px-tb">
+      <h3 class="col-title">UNDERGRADUATE PROJECT LINKS</h3>
+        <div class="utf-resume-box">
+          <ul>
+            <li>
+              <div class="icon"></div>
+             
+              <p><b style="color:#ff0000">•</b> <a target="_blank" style="color: white;" href="https://smallpdf.com/file#s=baa0804c-73af-430a-b806-c19f8957d70f">https://smallpdf.com/file#s=baa0804c-73af-430a-b806-c19f8957d70f</a>
+              </p>
+              <p>
+                <b style="color:#ff0000">•</b> <a target="_blank" style="color: white;" href="https://smallpdf.com/file#s=9480b820-8a7d-4102-a6d4-1868d0dcd78f">https://smallpdf.com/file#s=9480b820-8a7d-4102-a6d4-1868d0dcd78f</a></p>
+                
+
+            </li>
+
+            <li>
+              <div class="icon"></div>
+              <h5>INTERNSHIP PROJECT LINKS</h5>
+              <p><b style="color:#ff0000">•</b> <a target="_blank" style="color: white;" href="https://smallpdf.com/file#s=65c85a0d-61e7-4482-a760-3ee0706f5b38">https://smallpdf.com/file#s=65c85a0d-61e7-4482-a760-3ee0706f5b38</a>
+              </p>
+              <p>
+                <b style="color:#ff0000">•</b> <a target="_blank" style="color: white;" href="https://smallpdf.com/file#s=f9bbefab-06d3-4103-9a19-dda091fe9d7a">https://smallpdf.com/file#s=f9bbefab-06d3-4103-9a19-dda091fe9d7a</a></p>
+                
+                <p><b style="color:#ff0000">•</b> <a target="_blank" style="color: white;" href="https://smallpdf.com/file#s=8cce1786-a05e-4cca-8c5c-0e6c4929864c">https://smallpdf.com/file#s=8cce1786-a05e-4cca-8c5c-0e6c4929864c</a>
+                </p>
+            </li>
+
+       
+
+            <li>
+              <div class="icon"></div>
+              <h5>POSTGRADUATE PROJECT LINKS</h5>
+              <p><b style="color:#ff0000">•</b> <a target="_blank" style="color: white;" href="https://smallpdf.com/file#s=76766b4e-ee73-4bac-b529-b667a5d2f230">https://smallpdf.com/file#s=76766b4e-ee73-4bac-b529-b667a5d2f230</a>
+              </p>
+              <p>
+                <b style="color:#ff0000">•</b> <a target="_blank" style="color: white;" href="hhttps://smallpdf.com/file#s=3bcbf6f6-ab8a-477f-a6b8-9dfe480c0ac7">https://smallpdf.com/file#s=3bcbf6f6-ab8a-477f-a6b8-9dfe480c0ac7</a></p>
+                
+                <p><b style="color:#ff0000">•</b> <a target="_blank" style="color: white;" href="https://smallpdf.com/file#s=c41c64cc-1aea-4878-8f18-92d02a90f100">https://smallpdf.com/file#s=c41c64cc-1aea-4878-8f18-92d02a90f100</a>
+                </p>
+
+
+                <p><b style="color:#ff0000">•</b> <a target="_blank" style="color: white;" href="https://smallpdf.com/file#s=49ffd5ac-f508-400d-b3be-741638c8d88a">https://smallpdf.com/file#s=49ffd5ac-f508-400d-b3be-741638c8d88a</a>
+                </p>
+            </li>
+            
+             
+            
+         
+ 
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-12 m-15px-tb">
+      <h3 class="col-title">CERTIFICATIONS</h3>
+        <div class="utf-resume-box">
+          <ul>
+            <li>
+              <div class="icon"></div>
+              <!-- <span class="time">Aug 2019 – Present</span> -->
+              <h5><b style="color:#ff0000">•</b> OSHA 30hr construction (OSHA) </h5>
+                  <p><a style="color: rgb(218, 215, 215);" target="_blank" href="https://smallpdf.com/file#s=cac5495c-9a0b-4a76-afa5-723a76a6230b">&nbsp;&nbsp;&nbsp;&nbsp;https://smallpdf.com/file#s=cac5495c-9a0b-4a76-afa5-723a76a6230b</a></p>
+                  <h5><b style="color:#ff0000">•</b> Construction Manager-in-Training (CMIT) </h5>
+                  <p><a style="color: rgb(218, 215, 215);" target="_blank" href="https://smallpdf.com/file#s=82c84602-5eb3-4782-a550-4e6698afa70d">&nbsp;&nbsp;&nbsp;&nbsp;https://smallpdf.com/file#s=82c84602-5eb3-4782-a550-4e6698afa70d</a></p>
+                  <h5><b style="color:#ff0000">•</b> Procore Certified: Student (Procore) </h5>
+                  <p><a style="color: rgb(218, 215, 215);" target="_blank" href="https://smallpdf.com/file#s=1bfca8e0-8bb8-4c16-b7d9-680008817433">&nbsp;&nbsp;&nbsp;&nbsp;https://smallpdf.com/file#s=1bfca8e0-8bb8-4c16-b7d9-680008817433</a></p>
+                  <h5><b style="color:#ff0000">•</b> RECOMMENDATIONS </h5>
+                  <p><a style="color: rgb(218, 215, 215);" target="_blank" href="https://smallpdf.com/file#s=908aee97-80c5-452c-9309-25c66fcac4eb">&nbsp;&nbsp;&nbsp;&nbsp;https://smallpdf.com/file#s=908aee97-80c5-452c-9309-25c66fcac4eb</a></p>
+                </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+   
+
+
+    <!-- Experience & Education Ends -->
+<div class="pb-3 pt-5 utf-testimonials-section utf-single-section">
+      <div class="col-12">
+        <h3 class="pb-5 pb-sm-5 mb-3 mb-sm-0 text-center text-sm-center custom-title ft-wt-600">Technical Expertise : </h3>
+      </div>
+
+   
+     
+            <h6 style="display: inline-block;" class="utf-client-name">Proficiencies : </h6>&nbsp;
+      <span class="timee">Architectural drawing & drafting, Spatial Visualization, Structural Understanding, Microsoft office, AutoCAD, Photoshop, Sketchup & Lumion, Primavera, Bluebeam, Vu360, Revit.</span>&nbsp;
+      <!-- <span class="timee">Spatial Visualization</span>&nbsp;
+      <span class="timee">Structural Understanding</span>&nbsp;
+       <span class="timee">Microsoft office</span>&nbsp;
+      <span class="timee">AutoCAD</span>&nbsp;
+      <span class="timee">Photoshop</span>&nbsp; -->
+
+
+      <!-- <span class="timee">Sketchup & Lumion</span>&nbsp;
+      <span class="timee">Primavera</span>&nbsp;
+     <span class="timee">Bluebeam</span>&nbsp;
+     <span class="timee">Vu360</span>&nbsp;
+     <span class="timee">Revit</span>&nbsp; -->
+     
+<br>
+ <h6 style="display: inline-block;" class="utf-client-name"> Analytical Skills : </h6>&nbsp;
+      <span class="timee">Planning project strategies, handling unexpected issues, and solving other problems arising in the construction project, estimating the cost, materials, and time to complete the project.</span>&nbsp;
+      <!-- <span class="timee">handling unexpected issues, and solving other problems arising in the construction project</span>&nbsp;
+      <span class="timee">estimating the cost</span>&nbsp;
+      <span class="timee">materials, and time to complete the project</span>&nbsp; -->
+      
+
+      <br>
+       <h6 style="display: inline-block;" class="utf-client-name">Business Skills : </h6>&nbsp;
+      <span class="timee">Address budget matters, and coordinate, inspect the construction activities of workers, negotiate on cost matters, and established an effective relationship with staff.</span>&nbsp;
+<!-- 
+<span class="timee">coordinate</span>&nbsp;
+<span class="timee">inspect the construction activities of workers</span>&nbsp;
+<span class="timee">negotiate on cost matters</span>&nbsp;
+<span class="timee">established an effective relationship with staff</span>&nbsp; -->
+
+       <br>
+      <h6 style="display: inline-block;" class="utf-client-name">Leadership : </h6>&nbsp;
+      <span class="timee">Manage the staff workers, effectively delegate tasks to construction workers, other managers &amp; sub-contractors, responsible for taking initiative, making effective decisions concerning the needs of project, communicating the same to the workers.</span>&nbsp;
+  
+      
+<br>
+
+
+        </div>
+    <!-- Provide Services Starts -->
+
+    <div class="row pb-3 pt-5 utf-services-section">
+      <div class="col-12">
+        <h3 class="pb-5 pb-sm-5 mb-3 mb-sm-0 text-center text-sm-center custom-title ft-wt-600">What Can I Do</h3>
+      </div>
+	  <div class="col-12 col-md-6 col-lg-4">
+		<div class="utf-single-service">
+		  <h6 class="utf-service-title">Design and Analysis </h6>
+		</div>
+	  </div>
+
+	   <div class="col-12 col-md-6 col-lg-4">
+		<div class="utf-single-service">
+		  <h6 class="utf-service-title"> Schematic Diagrams </h6>
+		</div>
+	  </div>
+
+	   <div class="col-12 col-md-6 col-lg-4">
+		<div class="utf-single-service">
+		  <h6 class="utf-service-title">Scheduling </h6>
+		</div>
+	  </div>
+
+
+
+    <div class="col-12 col-md-6 col-lg-4">
+    <div class="utf-single-service">
+      <h6 class="utf-service-title">AutoCAD </h6>
+    </div>
+    </div>
+
+   
+
+     <div class="col-12 col-md-6 col-lg-4">
+    <div class="utf-single-service">
+      <h6 class="utf-service-title">Revit </h6>
+    </div>
+    </div>
+
+
+     <div class="col-12 col-md-6 col-lg-4">
+    <div class="utf-single-service">
+      <h6 class="utf-service-title">Sketch Up</h6>
+    </div>
+    </div>
+
+
+     <div class="col-12 col-md-6 col-lg-4">
+    <div class="utf-single-service">
+      <h6 class="utf-service-title">Navisworks</h6>
+    </div>
+    </div>
+	 
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="utf-single-service">
+        <h6 class="utf-service-title"> Estimation  </h6>
+      </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="utf-single-service">
+          <h6 class="utf-service-title">ETABS</h6>
+        </div>
+        </div>
+          
+    </div>
+
+
+	  
+	  
+	  <div class="row pb-3 pt-5 utf-services-section">
+      <div class="col-12">
+        <h3 class="pb-5 pb-sm-5 mb-3 mb-sm-0 text-center text-sm-center custom-title ft-wt-600">My Hobbies</h3>
+      </div>
+    <div class="col-12 col-md-6 col-lg-3">
+     <div class="utf-box-stats with-margin">
+        <i class="fa fa-book"></i>
+              <p class="m-0 position-relative">Reading</p>
+            </div>
+    </div>
+
+     <div class="col-12 col-md-6 col-lg-3">
+   <div class="utf-box-stats with-margin">
+    <i class="fa fa-cutlery"></i>
+              <p class="m-0 position-relative">Cooking</p>
+            </div>
+    </div>
+
+     <div class="col-12 col-md-6 col-lg-3">
+   <div class="utf-box-stats with-margin">
+    <i class="fa-solid fa-car"></i>
+              <p class="m-0 position-relative">Driving</p>
+            </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-3">
+    <div class="utf-box-stats with-margin">
+      <i class="fa-solid fa-earth-americas"></i>
+            <p class="m-0 position-relative">Travelling</p>
+          </div>
+        </div>
+  </div>
+
+
+   
+
+   
+    </div>
+
+	 
+	
+        <!-- Provide Services Ends -->	
+	
+    
+      
+      </div>
+    
+     
+    </div>
+		
+		
+	
+    <!-- Testimonials section Ends -->
+	
+	
+    <!-- Choose Your Plan Ends -->
+  </div>
+</section>
+</div>		
+<!-- Main Content Ends --> 
+
+
+
+<div class="contact">
+	<!-- Page Title Starts -->
+<section class="title-section text-center text-sm-center revealator-slideup revealator-once revealator-delay1">
+  <!-- <p class="utf-section-description">Connect Me</p>	 -->
+  <h1>Get In <span>Touch</span></h1>  
+  <div class="animated-bar"></div>
+  <!-- <p class="text-max-700">Lorem ipsum dolor sit amet, consect adipisic elit, sed do eiusmod tempor incididunt ut labore et d magna aliqua enim sed do sit.</p> -->
+</section>  
+<!-- Page Title Ends --> 
+
+<!-- Main Content Starts -->
+<section id="contact" class="main-content revealator-slideup revealator-once revealator-delay1 no-transform revealator-within">
+  <div class="container">
+    <div class="row"> 
+      <!-- Left Side Starts -->
+      <div class="col-12 col-lg-5">
+      <h4 class="utf-content-title">My Contact Info</h4>
+  
+       
+        <p class="utf-custom-span-contact position-relative"><i class="fa fa-map-marker position-absolute"></i> <span class="d-block">Location</span>Arlington, Texas, United States</p>
+        <p class="utf-custom-span-contact position-relative"><i class="fa fa-linkedin position-absolute"></i> <span class="d-block">LinkedIn</span><a target="_blank" href="https://www.linkedin.com/in/sureshbalaji-/">https://www.linkedin.com/in/sureshbalaji-/</a></p>
+    <p class="utf-custom-span-contact position-relative"><i class="fa fa-envelope position-absolute"></i> <span class="d-block">Email Address</span><a href="mailto:dsbalaji1999@gmail.com">dsbalaji1999@gmail.com</a></p>
+        <ul class="social list-unstyled pt-2 mb-5">
+
+        
+          <!-- <li class="linkedin"><a title="Linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li> -->
+      <!-- <li class="twitter"><a title="Twitter" target="_blank" href="#"><i class="fa fa-twitter"></i></a></li> -->
+      <li class="instagram"><a title="Instagram" target="_blank" href="https://www.instagram.com/dsbalaji44/"><i class="fa fa-instagram"></i></a></li>
+        <li class="facebook"><a title="Tiktok" target="_blank" href="https://www.facebook.com/suresh.balaji.9484"> <iconify-icon icon="fa-brands:facebook"></iconify-icon></a></li>
+          
+        </ul>
+    <!--    <ul class="social list-unstyled pt-2 mb-5">-->
+    <!--      <li class="facebook"><a title="Facebook" href="#"><i class="fa fa-facebook"></i></a></li>-->
+    <!--      <li class="linkedin"><a title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>-->
+      <!--<li class="twitter"><a title="Twitter" href="#"><i class="fa fa-twitter"></i></a></li>-->
+      <!--<li class="instagram"><a title="Instagram" href="#"><i class="fa fa-instagram"></i></a></li>-->
+    <!--      <li class="whatsapp"><a title="Whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>     -->
+    <!--    </ul>-->
+      </div>
+      <!-- Left Side Ends --> 
+      <!-- Contact Form Starts -->
+      <div class="col-12 col-lg-7">
+      <form class="contactform utf-contact-form form mb-5" method="post" action="">
+        <h4 class="utf-content-title">Contact Me</h4>
+      <!-- Success Message -->
+      <!--  <div class="col-md-12 mt-3 p-0">-->
+       <!--<div class="alert alert-success utf-contact-msg" style="display:none;text-align:center;width:100%;" role="alert">       -->
+        <!--<div class="col-12 p-0">Your Message Was Sent Successfully.</div>-->
+       <!-- </div>-->
+      <!--  </div>-->
+      <div class="row">
+              <div style="margin-bottom: 20px;" class="col-12 col-md-6 input-group">
+                <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required="">
+              </div>
+              <div style="margin-bottom: 20px;" class="col-12 col-md-6 input-group">
+                <input name="email" type="email" id="email" class="form-control" placeholder="Your Email" required="">
+              </div>
+            <!--   <div style="margin-bottom: 20px;" class="col-12 col-md-6 input-group">
+                <input type="text" name="subject" id="subject" class="form-control" placeholder="Write a Subject" required="">
+              </div> -->
+       <!--  <div style="margin-bottom: 20px;" class="col-12 col-md-6 input-group">
+                <input type="number" name="phone" id="phone" class="form-control" placeholder="Phone Number" required="">
+              </div> -->
+              <div class="col-12 col-md-12 input-group">
+                <textarea name="message" id="message" class="form-control" placeholder="Your Message..." required=""></textarea>                
+              </div>
+        <div class="col-12 col-md-12 input-group">
+                <button name="submit" type="submit" class="mx-auto btn btn_submit" value="Submit">Submit <i class="fa fa-envelope"></i></button>
+              </div>
+            </div>
+        </form>
+      </div>
+      <!-- Contact Form Ends --> 
+    </div>
+    <!-- Map Section Start -->
+   
+    <!-- Map Section End -->
+  </div>
+   <center><h5 style="font-size: medium;">Powered By <a target="_blank" style="color:red;" href="https://www.unitedopt.com/">United OPT</a></h5></center>
+</section>
+<!-- Contact Section Ends -->
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<!-- JS Files --> 
+<script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+<script src="js/jquery-3.5.0.min.js"></script> 
+<script src="js/fm.revealator.jquery.min.js"></script> 
+<script src="js/imagesloaded.pkgd.min.js"></script> 
+<script src="js/masonry.pkgd.min.js"></script> 
+<script src="js/classie.js"></script> 
+<script src="js/jquery.hoverdir.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap.js"></script> 
+<script src="js/modernizr.custom.js"></script>
+<script src="js/typed.js"></script>
+<script src="js/custom_jquery.js"></script>
+
+<script src="js/jquery.hoverdir.js"></script> 
+<script src="js/tiny-slider.js"></script>
+<script src="js/bootstrap.js"></script> 
+
+
+<script src="js/modernizr.custom.js"></script>
+<script src="js/cbpGridGallery.js"></script> 
+
+
+<!--Map Js-->
+
+
+<script>
+var typed = new Typed('.typed-words', {
+	strings: ["Project Manager"],
+	typeSpeed: 80,
+	backSpeed: 80,
+	backDelay: 4000,
+	startDelay: 1000,
+	loop: true,
+	showCursor: true
+});
+</script>
+<script>
+	tns({
+	container: ".utf-testimonials-section .utf-testimonial-slider",
+	items: 2,
+	gutter: 30,
+	responsive: {
+		0: {
+			items: 1,
+			gutter: 0
+		},
+		768: {
+			items: 2,
+			gutter: 30
+		}
+	},
+	preventScrollOnTouch: "auto",
+	slideBy: "page",
+	mouseDrag: !0,
+	swipeAngle: !1,
+	speed: 400,
+	controls: !1,
+	autoHeight: !0,
+	navPosition: "bottom"
+});
+</script>
+</script>
+</body>
+
+<!-- Mirrored from utouchdesign.com/themes/meetu/dark/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Oct 2021 18:08:41 GMT -->
+</html>
